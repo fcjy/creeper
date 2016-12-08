@@ -6,6 +6,7 @@ set autoindent
 set cindent
 set showmatch
 set number
+set relativenumber
 set backspace=indent,eol,start
 set laststatus=2
 set ruler
@@ -15,7 +16,11 @@ set foldmethod=syntax
 set nofoldenable
 set ic
 syntax on
+set list
+set listchars=tab:\|\ 
 
+set t_Co=256
+colorscheme molokai
 
 " Uncomment the following to have Vim jump to the last position when                                                       
 " reopening a file
